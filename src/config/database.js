@@ -10,6 +10,6 @@ module.exports = {
     underscoredAll: true,
   },
   production: {
-    DATABASE_URL: process.env.DATABASE_URL,
+    use_env_variable: process.env.DATABASE_URL,
   },
 };
