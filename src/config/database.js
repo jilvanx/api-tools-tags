@@ -9,4 +9,7 @@ module.exports = {
     underscored: true,
     underscoredAll: true,
   },
+  production: {
+    DATABASE_URL: process.env.DATABASE_URL,
+  },
 };
